@@ -81,13 +81,13 @@ const elasticsearchApp = {
 (async () => {
   // 1. 데이터 생성
   await elasticsearchApp.createDocument('1', {
-    title: 'Node.js with Elasticsearch',
+    title: 'Node.js with Elasticsearch11',
     content: 'Elasticsearch is a powerful search engine.',
     tags: ['nodejs', 'elasticsearch', 'search'],
   });
 
   await elasticsearchApp.createDocument('2', {
-    title: 'Introduction to Elasticsearch',
+    title: 'Introduction to Elasticsearch2',
     content: 'This is a basic introduction to Elasticsearch.',
     tags: ['elasticsearch', 'introduction', 'search'],
   });
